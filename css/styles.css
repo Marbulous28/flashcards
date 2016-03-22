@@ -1,3 +1,28 @@
+p{
+  display: inline;
+  font-size: 130%;
+}
+
+h4{
+  text-align: center;
+}
+
+.box{
+  border: 2px dashed darkgrey;
+  padding: 15px;
+  margin: 10px 5px;
+  border-radius: 5px;
+}
+
+.box:hover {
+  background-color:lightblue;
+  color: white;
+}
+
+.container{
+  width:2500px;
+}
+
 .text1{
   display:none;
 }

@@ -2,7 +2,7 @@
   <html>
     <head>
 
-      <link href="css/bootstrap.min. css" rel="stylesheet" type="text/css">
+      <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
       <link href="css/styles.css" rel="stylesheet" type="text/css">
       <script src="js/jquery-1.12.2.js"></script>
       <script src="js/myjs.js"></script>
@@ -12,29 +12,80 @@
 
     <body>
       <div class="container">
-        <h4>Test yourself! Click on any of the following items to see the what the
+        <h4 class="jumbotron">Test yourself! Click on any of the following items to see the what the
           item does. Click it again to hide what the item does.</h4>
-          <div>
-            <p class="clickable1">JavaScript: <span class="text1">JavaScript is a programming language commonly used in web development.</span></p>
-            <p class="clickable2">Operations: <span class="text2">Actions that can be performed in programming.</span></p>
-            <p class="clickable3">Variables: <span class="text3">Containers for values or strings.</span></p>
-            <p class="clickable4">Variable naming conventions: <span class="text4">Camel Case</span></p>
-            <p class="clickable5">Functions: <span class="text5"> A block of code that performs an action and returns a result</span></p>
-            <p class="clickable6">Methods: <span class="text6"> an action run on a piece of data</span></p>
-            <p class="clickable7">Arguments: <span class="text7"> The data you pass to your function</span></p>
-            <p class="clickable8">Parameters: <span class="text8">The names listed in the function definition</span></p>
-            <p class="clickable9">Return: <span class="text9">Stops the execution of a function and returns a value from that function</span></p>
-            <p class="clickable10">Chaining methods: <span class="text10"> allows you to chain methods together.</span></p>
-            <p class="clickable11">Strings: <span class="text11">A Data type that is a collection of characters in quotations.</span></p>
-            <p class="clickable12">Booleans: <span class="text12">A data type that represents true and false values.</span></p>
-            <p class="clickable13">undefined: <span class="text13">A data type that indicates the container is empty.</span></p>
-            <p class="clickable14">NaN: <span class="text14">'Not A Number'</span></p>
-            <p class="clickable15">Escape: <span class="text15">Using a backslash to indicate that a character is to be read literally.</span></p>
-            <p class="clickable16">Alert: <span class="text16">A popup that sends a message to the user.</span></p>
-            <p class="clickable17">Comments: <span class="text17">Text in code that is used to give reminders/notes.  Not actual code.</span></p>
-            <p class="clickable18">jQuery: <span class="text18">A popular Javascript library that adds front end interactivity.</span></p>
-            <p class="clickable19">Attribute: <span class="text19">Text used to change the nature of HTML elements.</span></p>
+          <div class="row">
+            <div class="col-sm-3 box">
+              <p class="clickable1">JavaScript: <span class="text1">JavaScript is a programming language commonly used in web development.</span></h4>
+            </div>
+            <div class="col-sm-3 box">
+              <p class="clickable2">Operations: <span class="text2">Actions that can be performed in programming.</span></p>
+            </div>
+            <div class="col-sm-3 box">
+              <p class="clickable3">Variables: <span class="text3">Containers for values or strings.</span></p>
+            </div>
           </div>
+          <div class="row">
+            <div class="col-sm-3 box">
+              <p class="clickable4">Variable naming conventions: <span class="text4">Camel Case</span></p>
+            </div>
+            <div class="col-sm-3 box">
+              <p class="clickable5">Functions: <span class="text5"> A block of code that performs an action and returns a result</span></p>
+            </div>
+            <div class="col-sm-3 box">
+              <p class="clickable6">Methods: <span class="text6"> an action run on a piece of data</span></p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-3 box">
+              <p class="clickable7">Arguments: <span class="text7"> The data you pass to your function</span></p>
+            </div>
+            <div class="col-sm-3 box">
+              <p class="clickable8">Parameters: <span class="text8">The names listed in the function definition</span></p>
+            </div>
+            <div class="col-sm-3 box">
+              <p class="clickable9">Return: <span class="text9">Stops the execution of a function and returns a value from that function</span></p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-3 box">
+              <p class="clickable10">Chaining methods: <span class="text10"> allows you to chain methods together.</span></p>
+            </div>
+            <div class="col-sm-3 box">
+              <p class="clickable11">Strings: <span class="text11">A Data type that is a collection of characters in quotations.</span></p>
+            </div>
+            <div class="col-sm-3 box">
+              <p class="clickable12">Booleans: <span class="text12">A data type that represents true and false values.</span></p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-3 box">
+              <p class="clickable13">undefined: <span class="text13">A data type that indicates the container is empty.</span></p>
+            </div>
+            <div class="col-sm-3 box">
+              <p class="clickable14">NaN: <span class="text14">'Not A Number'</span></p>
+            </div>
+            <div class="col-sm-3 box">
+              <p class="clickable15">Escape: <span class="text15">Using a backslash to indicate that a character is to be read literally.</span></p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-3 box">
+              <p class="clickable16">Alert: <span class="text16">A popup that sends a message to the user.</span></p>
+            </div>
+            <div class="col-sm-3 box">
+              <p class="clickable17">Comments: <span class="text17">Text in code that is used to give reminders/notes.  Not actual code.</span></p>
+            </div>
+            <div class="col-sm-3 box">
+              <p class="clickable18">jQuery: <span class="text18">A popular Javascript library that adds front end interactivity.</span></p>
+            </div>
+          </div>
+          <div clas="row">
+            <div class="col-sm-3 box">
+              <p class="clickable19">Attribute: <span class="text19">Text used to change the nature of HTML elements.</span></p>
+            </div>
+          </div>
+        </div>
 
     </body>
   </html>

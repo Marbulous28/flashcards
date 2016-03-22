@@ -55,6 +55,6 @@ $(document).ready(function() {
   });
     $(".clickable19").click(function() {
       $(".text19").toggle();
+  });
 
-});
 });
